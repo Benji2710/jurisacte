@@ -1,0 +1,28 @@
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Base de donnees locale
+*.sqlite3
+db.sqlite3
+
+# Secrets
+.env
+.env.*
+
+# Medias et statiques
+media/
+staticfiles/
+
+# Logs
+*.log
+
+# IDE et OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
